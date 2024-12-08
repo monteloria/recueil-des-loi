@@ -1,8 +1,9 @@
 ---
-title: reglement générale sur l'emploi 
-author: gabriel nadeau 
-categories: []
-date: 
+title: reglement générale sur l'emploi
+author: gabriel nadeau
+categories:
+  - - code_du_travail
+date:
 tags:
 ---
 # Titre I : règle générale 
