@@ -1,0 +1,1 @@
+deployCommand:'cd .. && git add * */* && git rm -d backend\\node_modules -r && git commit -m"deploy" && git pulll && git fetch'
