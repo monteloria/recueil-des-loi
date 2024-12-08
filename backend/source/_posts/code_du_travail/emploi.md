@@ -1,6 +1,9 @@
 ---
-categories:
-  - - code_du_travail
+title: reglement générale sur l'emploi 
+author: gabriel nadeau 
+categories: []
+date: 
+tags:
 ---
 # Titre I : règle générale 
 - Chapitre 1 : Principes fondamentaux
