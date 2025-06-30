@@ -22,7 +22,7 @@ jobs:
           cache-dependency-path: backend/package-lock.json
           
       - name: Install dependencies
-        run: cd backend && npm install
+        run: cd backend && npm install && git submodule update --init --recursive
         
       - name: Build Hexo
         run: cd backend && npm run build
