@@ -239,4 +239,7 @@ ignore:
 theme: hexo-themes-listenbourg
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-
+deploy:
+  type: git
+  repo: https://github.com/listenbourg-legal/listenbourg-legal.github.io.git
+  branch: main
