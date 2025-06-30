@@ -24,7 +24,7 @@ jobs:
         run: cd backend && npm install
         
       - name: Build Hexo
-        run: cd backend && npm run generate
+        run: cd backend && npm run build
         
       - name: Deploy with hexo-deployer-git
         if: github.ref == 'refs/heads/main'
