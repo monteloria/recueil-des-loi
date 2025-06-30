@@ -20,10 +20,10 @@ jobs:
           cache: 'npm'
           
       - name: Install dependencies
-        run: npm install
+        run: cd backend && npm install
         
       - name: Build Hexo
-        run: npm run generate
+        run: cd backend && npm run generate
         
       - name: Deploy with hexo-deployer-git
         if: github.ref == 'refs/heads/main'
@@ -41,4 +41,4 @@ jobs:
           echo "$GITHUB_TOKEN" | git-credential-store store
           
           # Déploiement
-          npm run deploy
+          cd backend && npm run deploy
