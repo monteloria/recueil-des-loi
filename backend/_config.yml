@@ -238,5 +238,11 @@ theme: hexo-themes-listenbourg
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/listenbourg-legal/listenbourg-legal.github.io.git
+  repo: 
+      github: 
+          url: https://github.com/listenbourg-legal/listenbourg-legal.github.io.git
+          token: $GITHUB_TOKEN
   branch: main
+  message: "deploy"
+  name: "github"
+
