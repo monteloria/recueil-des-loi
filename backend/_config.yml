@@ -244,6 +244,6 @@ deploy:
           token: $GITHUB_TOKEN
           branch: main
   message: "deploy"
-  name: "github"
+  name: "arbinger"
   email: "alphaleadershipyt@protonmail.com  "
 
