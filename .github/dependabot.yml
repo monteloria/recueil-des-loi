@@ -1,0 +1,29 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  target-branch: main
+  labels:
+    - dependencies
+  reviewers:
+    - listenbourg-legal/recueil-des-loi
+  assignees:
+    - listenbourg-legal/recueil-des-loi
+  versioning-strategy: auto
+  commit-message:
+    prefix: chore
+    include: scope
+  
+  # Configuration spécifique pour les dépendances de développement
+  groups:
+    hexo-dependencies:
+      patterns:
+        - "hexo-*"
+        - "hexo-theme-*"
+      schedule:
+        interval: weekly
+        day: monday
+      open-pull-requests-limit: 5
