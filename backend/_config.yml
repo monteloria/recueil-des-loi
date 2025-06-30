@@ -243,7 +243,7 @@ deploy:
           url: "https://github.com/listenbourg-legal/listenbourg-legal.github.io.git"
           token: $TOKEN
           branch: main
-  message: "deploy"
+
   name: "arbinger"
   email: "alphaleadershipyt@protonmail.com  "
 
