@@ -39,7 +39,7 @@ jobs:
           git config --global user.email "github-actions@github.com"
           
           # Ajouter les credentials
-          git config --global user.password $GITHUB_TOKEN
+          
           
           # Déploiement
           cd backend && npm run deploy
