@@ -1,3 +1,6 @@
 [submodule "backend/themes/hexo-themes-listenbourg"]
 	path = backend/themes/hexo-themes-listenbourg
 	url = https://github.com/listenbourg-legal/hexo-theme-freemind.git
+[submodule "backend/source"]
+	path = backend/source
+	url = https://github.com/listenbourg-legal/source.git
