@@ -25,7 +25,7 @@ auto_category:
     className: 'test'
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://listenbourg-legal.github.io/
+url: https://monteloria.github.io/
 permalink: :title/
 permalink_defaults:
 pretty_urls:
@@ -109,7 +109,7 @@ seo:
       enable: true
     sitelink:
       enable: true
-      searchUrl:  https://listenbourg-legal.github.io/recueil-des-loi/search?q={search_term_string}
+      searchUrl:  https://monteloria.github.io/recueil-des-loi/search?q={search_term_string}
   # this function still under development because JAVASCRIPT HEAP MEMORY and my device is 8GB RAM
   img:
     enable: true
@@ -240,7 +240,7 @@ deploy:
   type: git
   repo: 
       github: 
-          url: "https://github.com/listenbourg-legal/listenbourg-legal.github.io.git"
+          url: "https://github.com/monteloria/monteloria.github.io.git"
           token: $TOKEN
           branch: main
 
