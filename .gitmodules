@@ -3,4 +3,4 @@
 	url = https://github.com/listenbourg-legal/hexo-theme-freemind.git
 [submodule "backend/source"]
 	path = backend/source
-	url = https://github.com/listenbourg-legal/source.git
+	url = https://github.com/monteloria/source.git
